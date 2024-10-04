@@ -1,0 +1,319 @@
+body {
+background-color: #f8bd72;
+margin: 0%;
+display: flex;
+flex-direction: column;
+}
+
+header{
+justify-content: space-evenly;
+background-color: #da8838;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 120px;
+line-height: 120px;
+}
+
+.la {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+
+.links > a {
+
+margin-right: 1em;
+margin-left: 1em;
+padding: 1.86em 1.42em;
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+}
+
+.links > a:visited{
+    color: rgb(35, 35, 35)
+
+}
+
+main {
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.banner{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagens\ horta/carrinho.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    
+}    
+
+.banner-texto{
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #da89387a;
+    padding: 20px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.banner-texto:hover{
+    transform: translate(-10px);
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+    
+    }
+
+    footer {
+        justify-content: space-evenly;
+    background-color: #da8838;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    margin-bottom: -100;
+    
+
+    }
+
+    footer > a {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .frutao {
+    width:200px ;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+    }
+
+    .bla{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .aaa {
+     display: flex;
+     background-color:  rgb(33, 105, 105);
+     width: 60px;
+     font-family: monospace;
+     color: rgb(0, 0, 0);
+     border-radius: 1000px;
+     padding: 10px;
+     text-align: center;
+    }
+
+
+
+
+
+
+    .container-pai{
+        justify-content: space-evenly;
+        display: flex;
+        padding: 25px;
+        background-color: #f8bd72;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: space-around;
+        }
+
+
+
+    .container-filho{
+        background-color: rgba(32, 31, 29, 0.525);
+        width: 300px;
+        height: 230px;
+        font-family: monospace;
+        color: azure;
+        border-radius: 10px;
+        padding: 9px;
+        text-align: center;
+
+        
+        }
+        
+        
+
+
+
+
+
+        .container-horta {
+            justify-content: space-evenly;
+            background-color: rgb(208, 244, 175);
+            
+padding: 10px;
+display: flex;
+flex-direction: row;
+gap: 20px;
+justify-content: space-around;
+
+        }
+
+        .container-hortinha {
+
+overflow: hidden;   
+padding-bottom: 75%;
+text-align: center;
+display: flex;
+background-color: rgba(45, 106, 109, 0.616);
+padding: 30px;
+flex-direction: column;
+gap: 20px;
+
+        }
+
+
+        
+.frutao {
+    text-align: center;
+    width: auto;
+    height: 300px;
+    gap: 20px;
+    border-radius: 20%;
+    }
+
+
+.aaaa {
+    color: #940505;
+}
+
+.container-limpao {
+    justify-content: space-evenly;
+background-color: rgb(170, 227, 220);
+padding: 10px;
+display: flex;
+flex-direction: row;
+gap: 20px;
+justify-content: space-around;}
+
+
+
+.container-limpinho {
+ overflow: hidden;   
+padding-bottom: 75%;
+text-align: center;
+display: flex;
+background-color: rgba(45, 106, 109, 0.616);
+padding: 10px;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.lipaozao{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: auto;
+    height: 300px;
+    gap: 20px;
+    border-radius: 20%;
+    }
+
+.blabla {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+} 
+
+
+.container-pao {
+    justify-content: space-evenly;
+    background-color: rgb(241, 218, 128);
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;}
+    
+    
+    
+    .container-paozinho {
+     overflow: hidden;   
+    padding-bottom: 75%;
+    text-align: center;
+    display: flex;
+    background-color: rgba(174, 163, 119, 0.57);
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+    
+    }
+    
+
+
+    .paozao{
+        background-color: aquamarine;
+        text-align: center;
+        width: auto;
+        height: 300px;
+        gap: 20px;
+        border-radius: 20%;
+        }
+
+        .logo {
+            background-color: #da8838;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 170px;
+            line-height: 170px;
+            
+        }
+
+
+        .lu {
+            height: 150px;
+            width: auto;
+            font-size: x-large;
+            
+        }
+
+
+        .imagens {
+            height: 150px;
+          width: auto;
+        }
+.kkk{
+    height: 300px;
+    width: auto;
+}
+button {
+    height: 70px;
+    width: 70px;
+    background-color: #e15300;
+    border-radius: 20%;
+    
+}
+
+.imagenss {
+    height: 70px;
+  width: auto;
+}
